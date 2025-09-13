@@ -53,14 +53,7 @@ class DetailFragment : Fragment() {
     }
 
     companion object {
+        const val COFFEE_ID = "COFFEE_ID"
         private const val TAG = "DetailFragment"
-        private const val COFFEE_ID = "COFFEE_ID"
-
-        fun newInstance(coffeeId: Int) =
-            DetailFragment().apply {
-                arguments = Bundle().apply {
-                    putInt(COFFEE_ID, coffeeId)
-                }
-            }
     }
 }
