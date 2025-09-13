@@ -21,4 +21,12 @@
     </string>
 
     <string name="coffee_list">Coffee List</string>
+
+    <string name="cappuccino_title">Cappuccino</string>
+
+    <string name="cappuccino_desc">A coffee made with espresso and steamed milk foam.</string>
+
+    <string name="mocha_title">Mocha</string>
+    <string name="mocha_desc">A chocolate-flavored coffee with espresso, milk, and whipped cream.</string>
+
 </resources>
